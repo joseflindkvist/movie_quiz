@@ -1,5 +1,7 @@
 Welcome to Film Quiz! On our website you get to explore different genres in an interesting and often challenging quiz game. You sign up for an account and can start quizzing right away! The website saves your previous games to a Highscore tab where you can review your accomplishments.
 
+https://film-quiz-207ce.firebaseapp.com/login
+
 OBSERVE: Firebase requires atleast 6 characters in your password.
 
 Short description of our project:
