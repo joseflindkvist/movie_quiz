@@ -3,8 +3,8 @@ async function getTopMoviesFromGenre(genre, amount) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
   return await fetch(
@@ -19,8 +19,8 @@ async function getBaseFromID(id) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
 
@@ -37,8 +37,8 @@ async function getImagesFromID(id) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
   return await fetch(
@@ -53,8 +53,8 @@ async function getPlotFromID(id) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
   return await fetch(
@@ -75,8 +75,8 @@ async function getMoviesFromID(idArray) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
 
@@ -101,8 +101,8 @@ async function getGernesFromID(id) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
 
@@ -122,8 +122,8 @@ async function getQuotesFromID(id) {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "cec86edc91msh4a3b46408546164p1b6501jsnea9460095cc8",
-      "X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+		'X-RapidAPI-Key': '56d4665173mshbe091a3110ac4f8p10a0e8jsnd5d13cd47bd9',
+		'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com'
     },
   };
   async function checkifData(object) {
